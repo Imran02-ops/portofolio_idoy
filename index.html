@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Website Profil Mahasiswa</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+  />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header">
+    <nav class="navbar">
+      <div class="logo">Idoy</div>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#tentang">Tentang Saya</a></li>
+        <li><a href="#kontak">Kontak</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button class="theme-toggle" id="themeToggle" aria-label="Ganti tema" type="button">
+          <i class="fa-solid fa-moon"></i>
+        </button>
+
+        <button class="menu-toggle" id="menuToggle" aria-label="Buka menu" type="button">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HOME -->
+    <section class="hero section" id="home">
+      <div class="hero-content">
+        <div class="hero-image">
+          <div class="glow-circle"></div>
+          <img
+            src="img/"
+            alt="Foto Profil"
+          />
+        </div>
+
+        <div class="hero-text">
+          <span class="badge">Home</span>
+          <h1>Idoy</h1>
+          <div class="identity-list">
+            <p><strong>NIM:</strong> 2312345678</p>
+            <p><strong>Program Studi:</strong> Sistem Informasi</p>
+            <p><strong>Universitas:</strong> Universitas Contoh Indonesia</p>
+          </div>
+          <p class="description">
+            Saya adalah seorang mahasiswa yang memiliki minat dalam bidang teknologi,
+            desain antarmuka, dan pengembangan website. Saya senang mempelajari hal baru
+            serta mengembangkan kemampuan untuk menciptakan solusi digital yang bermanfaat.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- TENTANG SAYA -->
+    <section class="section" id="tentang">
+      <div class="section-title">
+        <span>Tentang Saya</span>
+        <h2>Informasi Pribadi</h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="card glass">
+          <h3>Biodata Lengkap</h3>
+          <div class="info-list">
+            <p><strong>Nama Lengkap:</strong> Nama Lengkap Anda</p>
+            <p><strong>Tempat, Tanggal Lahir:</strong> Kota, 1 Januari 2000</p>
+            <p><strong>Jenis Kelamin:</strong> Perempuan</p>
+            <p><strong>Alamat:</strong> Jl. Contoh Alamat No. 123</p>
+            <p><strong>Agama:</strong> Islam</p>
+            <p><strong>Kewarganegaraan:</strong> Indonesia</p>
+          </div>
+        </div>
+
+        <div class="card glass">
+          <h3>Riwayat Pendidikan</h3>
+          <div class="timeline">
+            <div class="timeline-item">
+              <h4>SD Negeri Contoh 01</h4>
+              <p>2009 - 2015</p>
+            </div>
+            <div class="timeline-item">
+              <h4>SMP Negeri Contoh 02</h4>
+              <p>2015 - 2018</p>
+            </div>
+            <div class="timeline-item">
+              <h4>SMA Negeri Contoh 03</h4>
+              <p>2018 - 2021</p>
+            </div>
+            <div class="timeline-item">
+              <h4>Universitas Contoh Indonesia</h4>
+              <p>2021 - Sekarang</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card glass">
+          <h3>Skill / Keahlian</h3>
+          <div class="skills">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>Microsoft Office</span>
+            <span>Desain UI</span>
+            <span>Public Speaking</span>
+            <span>Canva</span>
+            <span>Figma</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- KONTAK -->
+    <section class="section" id="kontak">
+      <div class="section-title">
+        <span>Kontak</span>
+        <h2>Hubungi Saya</h2>
+      </div>
+
+      <div class="contact-grid">
+        <div class="card glass">
+          <h3>Informasi Kontak</h3>
+          <div class="contact-list">
+            <p><i class="fa-solid fa-envelope"></i> idoyUBG@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i> 081111</p>
+          </div>
+        </div>
+
+        <div class="card glass">
+          <h3>Media Sosial</h3>
+          <div class="social-links">
+            <a href="#" target="_blank"><i class="fa-brands fa-instagram"></i> Instagram</a>
+            <a href="#" target="_blank"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+            <a href="#" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+            <a href="#" target="_blank"><i class="fa-brands fa-facebook"></i> Facebook</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Copyright © 2026 - Idoy</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
